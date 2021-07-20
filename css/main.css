@@ -83,26 +83,6 @@ textarea {
   border-bottom: 1px solid #ececec;
 }
 
-.logo {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--logo-black-color);
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.logo:hover, .logo:focus {
-  color: var(--accent-color);
-}
-
-.part-logo {
-  color: var(--accent-color);
-}
-
 .header .container {
   display: flex;
   align-items: center;
@@ -378,29 +358,6 @@ textarea {
   margin-right: 32px;
 }
 
-.team-social-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  fill: var(--icons-grey-color);
-  transition-property: fill, background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.team-social-link:focus, .team-social-link:hover {
-  background-color: var(--accent-color);
-  fill: var(--primary-white-color);
-}
-
-.team-link-icon {
-  width: 20px;
-  height: 20px;
-}
-
 .clients-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -460,24 +417,6 @@ textarea {
   margin-right: 70px;
 }
 
-.logo-dark {
-  display: inline-block;
-  margin-bottom: 20px;
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--primary-white-color);
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.logo-dark:hover, .logo-dark:focus {
-  color: var(--accent-color);
-}
-
 .address-list-item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -534,29 +473,6 @@ textarea {
   display: flex;
   width: 206px;
   justify-content: space-between;
-}
-
-.follow-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  fill: var(--primary-white-color);
-  background-color: rgba(255, 255, 255, 0.1);
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.follow-link:focus, .follow-link:hover {
-  background-color: var(--accent-color);
-}
-
-.follow-icon {
-  width: 20px;
-  height: 20px;
 }
 
 .footer-column-form {
@@ -897,5 +813,84 @@ textarea {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-black-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo:hover, .logo:focus {
+  color: var(--accent-color);
+}
+
+.part-logo {
+  color: var(--accent-color);
+}
+
+.logo-dark {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo-dark:hover, .logo-dark:focus {
+  color: var(--accent-color);
+}
+
+.team-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--icons-grey-color);
+  transition-property: fill, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-social-link:focus, .team-social-link:hover {
+  background-color: var(--accent-color);
+  fill: var(--primary-white-color);
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.follow-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--primary-white-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.follow-link:focus, .follow-link:hover {
+  background-color: var(--accent-color);
 }
 /*# sourceMappingURL=main.css.map */

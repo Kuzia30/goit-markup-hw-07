@@ -14,28 +14,6 @@
   margin-right: 70px;
 }
 
-.logo-dark {
-  display: inline-block;
-  margin-bottom: 20px;
-
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-
-  color: var(--primary-white-color);
-
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover,
-    &:focus {
-    color: var(--accent-color);
-    }
-}
-
 .address-list-item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -98,32 +76,6 @@
   display: flex;
   width: 206px;
   justify-content: space-between;
-}
-
-.follow-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-
-  fill: var(--primary-white-color);
-  background-color: rgba(255, 255, 255, 0.1);
-
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:focus,
-    &:hover {
-    background-color: var(--accent-color);
-    }
-}
-
-.follow-icon {
-  width: 20px;
-  height: 20px;
 }
 
 .footer-column-form {
