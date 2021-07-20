@@ -13,11 +13,11 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.logo:hover,
-.logo:focus {
-  color: var(--accent-color);
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+    }
 }
 
 .part-logo {
@@ -61,23 +61,23 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.menu-item-link:hover,
-.menu-item-link:focus {
-  color: var(--accent-color);
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+    }
 }
 
 .menu-item-link.current {
   color: var(--accent-color);
-}
 
-.menu-item.current::after {
-  content: "";
-  display: block;
-  height: 4px;
-  background: #2196f3;
-  border-radius: 2px;
+    &::after {
+    content: "";
+    display: block;
+    height: 4px;
+    background: #2196f3;
+    border-radius: 2px;
+    }
 }
 
 .contacts-item:not(:last-child) {
@@ -112,11 +112,9 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.contacts-item-mail:hover,
-.contacts-item-mail:focus,
-.contacts-item-tel:hover,
-.contacts-item-tel:focus {
-  color: var(--accent-color);
+    &:hover,
+    &:focus,{
+    color: var(--accent-color);
+    }
 }
