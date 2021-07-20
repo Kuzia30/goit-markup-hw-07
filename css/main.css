@@ -95,8 +95,7 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo:hover,
-.logo:focus {
+.logo:hover, .logo:focus {
   color: var(--accent-color);
 }
 
@@ -140,12 +139,11 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-item-link:hover,
-.menu-item-link:focus {
+.menu-item-link:hover, .menu-item-link:focus {
   color: var(--accent-color);
 }
 
-.menu-item-link.current {
+.menu-item-link .current {
   color: var(--accent-color);
 }
 
@@ -189,8 +187,7 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-item-mail:hover,
-.contacts-item-mail:focus,
+.contacts-item-mail:hover, .contacts-item-mail:focus,
 .contacts-item-tel:hover,
 .contacts-item-tel:focus {
   color: var(--accent-color);
@@ -394,15 +391,14 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.team-social-link:focus, .team-social-link:hover {
+  background-color: var(--accent-color);
+  fill: var(--primary-white-color);
+}
+
 .team-link-icon {
   width: 20px;
   height: 20px;
-}
-
-.team-social-link:focus,
-.team-social-link:hover {
-  background-color: var(--accent-color);
-  fill: var(--primary-white-color);
 }
 
 .clients-title {
@@ -439,8 +435,7 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients-link:hover, .clients-link:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
@@ -479,8 +474,7 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo-dark:hover,
-.logo-dark:focus {
+.logo-dark:hover, .logo-dark:focus {
   color: var(--accent-color);
 }
 
@@ -499,8 +493,7 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-list-item-map:hover,
-.address-list-item-map:focus {
+.address-list-item-map:hover, .address-list-item-map:focus {
   color: var(--accent-color);
 }
 
@@ -516,8 +509,7 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-list-item-mail:hover,
-.address-list-item-mail:focus,
+.address-list-item-mail:hover, .address-list-item-mail:focus,
 .address-list-item-tel:hover,
 .address-list-item-tel:focus {
   color: var(--accent-color);
@@ -558,8 +550,7 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.follow-link:focus,
-.follow-link:hover {
+.follow-link:focus, .follow-link:hover {
   background-color: var(--accent-color);
 }
 
@@ -636,8 +627,7 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filter-list-button:hover,
-.filter-list-button:focus {
+.filter-list-button:hover, .filter-list-button:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -650,15 +640,15 @@ textarea {
   margin-bottom: -30px;
 }
 
-.examples-list-item-link:hover {
-  display: block;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
 .examples-list-item-link {
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.examples-list-item-link:hover {
+  display: block;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .examples-list-item {
@@ -762,8 +752,7 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-close:hover,
-.btn-close:focus {
+.btn-close:hover, .btn-close:focus {
   fill: var(--accent-color);
 }
 
@@ -817,14 +806,10 @@ textarea {
   border-radius: 4px;
 }
 
-.modal-wrap input:focus,
-.modal-wrap textarea:focus {
+.modal-wrap input input:focus,
+.modal-wrap input textarea:focus {
   outline: none;
   border-color: var(--accent-color);
-}
-
-.modal-wrap input:focus + .modal-img {
-  fill: var(--accent-color);
 }
 
 .modal-img {
@@ -837,6 +822,10 @@ textarea {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-wrap input:focus + .modal-img {
+  fill: var(--accent-color);
 }
 
 .modal-wrap-comment {
