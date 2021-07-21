@@ -2,7 +2,7 @@
   padding-top: 0;
 }
 
-.business-title {
+.business__title {
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -14,17 +14,17 @@
   color: var(--title-text-color);
 }
 
-.business-list {
+.business__list {
   display: flex;
   margin-right: -30px;
 }
 
-.business-list-item {
+.business__item {
   position: relative;
   margin-right: 30px;
 }
 
-.business-text {
+.business__text {
   display: flex;
   justify-content: center;
   align-items: center;

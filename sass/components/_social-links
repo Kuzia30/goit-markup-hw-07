@@ -7,7 +7,7 @@
   border-radius: 50%;
 }
 
-.team__social-link {
+.network__link {
     fill: var(--icons-grey-color);
 
     transition-property: fill, background-color;

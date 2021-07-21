@@ -243,7 +243,7 @@ textarea {
   padding-top: 0;
 }
 
-.business-title {
+.business__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -253,17 +253,17 @@ textarea {
   color: var(--title-text-color);
 }
 
-.business-list {
+.business__list {
   display: flex;
   margin-right: -30px;
 }
 
-.business-list-item {
+.business__item {
   position: relative;
   margin-right: 30px;
 }
 
-.business-text {
+.business__text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -284,7 +284,7 @@ textarea {
   background-color: var(--section-grey-color);
 }
 
-.team-title {
+.team__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -294,12 +294,12 @@ textarea {
   color: var(--title-text-color);
 }
 
-.team-list {
+.team__list {
   display: flex;
   margin-right: -30px;
 }
 
-.team-list-item {
+.team__item {
   margin-right: 30px;
   width: 270px;
   background: var(--primary-white-color);
@@ -307,12 +307,12 @@ textarea {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-list-item-block {
+.team__block {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.team-list-item-caption {
+.team__caption {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -322,7 +322,7 @@ textarea {
   color: var(--title-text-color);
 }
 
-.team-list-item-text {
+.team__text {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;
@@ -331,7 +331,7 @@ textarea {
   color: var(--primary-text-color);
 }
 
-.team-social-list {
+.network__list {
   display: flex;
   justify-content: space-between;
   margin-left: 32px;
@@ -831,14 +831,14 @@ textarea {
   border-radius: 50%;
 }
 
-.team__social-link {
+.network__link {
   fill: var(--icons-grey-color);
   transition-property: fill, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team__social-link:focus, .team__social-link:hover {
+.network__link:focus, .network__link:hover {
   background-color: var(--accent-color);
   fill: var(--primary-white-color);
 }
