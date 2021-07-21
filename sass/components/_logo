@@ -16,7 +16,7 @@
     }
 }
 
-.part-logo {
+.navigation__part-logo {
   color: var(--accent-color);
 }
 
