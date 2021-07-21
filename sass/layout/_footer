@@ -40,8 +40,6 @@
   color: var(--primary-white-color);
 }
 
-
-
 .follow__column{
   margin-right: 93px;
 }
