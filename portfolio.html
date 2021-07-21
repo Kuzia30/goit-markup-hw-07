@@ -26,7 +26,7 @@
       <div class="container">
         <nav class="navigation">
           <a href="/index.html" class="logo link">
-            <span class="navigation__part-logo">Web</span>Studio
+            <span class="logo__start">Web</span>Studio
           </a>
     
           <ul class="menu list">
@@ -293,62 +293,52 @@
 
     <!-- Футер -->
     <footer class="footer">
-      <div class="container footer-section">
-        <div class="footer-column-address">
-          <a href="/index.html" class="logo-dark link">
-            <span class="part-logo">Web</span>Studio
+      <div class="container footer__section">
+        <div class="address__column">
+          <a href="/index.html" class="logo--dark address__logo link">
+            <span class="logo__start">Web</span>Studio
           </a>
           <address class="address">
-            <ul class="address-list list">
-              <li class="address-list-item">
-                <a
-                  href="https://goo.gl/maps/YyJ7v4X7RphrhaucA"
-                  target="_blank"
-                  class="address-list-item-map link"
-                  >г. Киев, пр-т Леси Украинки, 26</a
-                >
+            <ul class="address__list list">
+              <li class="address__item">
+                <a href="https://goo.gl/maps/YyJ7v4X7RphrhaucA" target="_blank"
+                  class="address__link address__link--map link">г. Киев, пр-т Леси Украинки, 26</a>
               </li>
-              <li class="address-list-item">
-                <a
-                  href="mailto:info@example.com"
-                  class="address-list-item-mail link"
-                  >info@example.com</a
-                >
+              <li class="address__item">
+                <a href="mailto:info@example.com" class="address__link link">info@example.com</a>
               </li>
-              <li class="address-list-item">
-                <a href="tel:+380991111111" class="address-list-item-tel link"
-                  >+38 099 111 11 11</a
-                >
+              <li class="address__item">
+                <a href="tel:+380991111111" class="address__link link">+38 099 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
-        <div class="footer-column-follow">
-          <strong class="footer-caption">присоединяйтесь </strong>
-          <ul class="follow-list list">
-            <li class="follow-item">
-              <a href="" class="follow-link">
+        <div class="follow__column">
+          <strong class="footer__caption">присоединяйтесь </strong>
+          <ul class="follow__list list">
+            <li class="follow__item">
+              <a href="" class="follow__social-link social-link">
                 <svg class="social-icon">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="follow-item">
-              <a href="" class="follow-link">
+            <li class="follow__item">
+              <a href="" class="follow__social-link social-link">
                 <svg class="social-icon">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="follow-item">
-              <a href="" class="follow-link">
+            <li class="follow__item">
+              <a href="" class="follow__social-link social-link">
                 <svg class="social-icon">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="follow-item">
-              <a href="" class="follow-link">
+            <li class="follow__item">
+              <a href="" class="follow__social-link social-link">
                 <svg class="social-icon">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
@@ -356,20 +346,14 @@
             </li>
           </ul>
         </div>
-
-        <form class="footer-column-form">
-          <strong class="footer-caption">Подпишитесь на рассылку </strong>
-          <div class="footer-email">
-            <input
-              type="email"
-              name="footer-email"
-              placeholder="E-mail"
-              required
-              minlength="2"
-            />
-            <button type="submit" class="footer-email-btn hero-button">
+    
+        <form class="form__column">
+          <strong class="footer__caption">Подпишитесь на рассылку </strong>
+          <div class="subscribe__wrap">
+            <input type="email" name="footer-email" placeholder="E-mail" required minlength="2" />
+            <button type="submit" class="subscribe__btn hero-button">
               Подписаться
-              <svg class="footer-btn-image">
+              <svg class="subscribe__image">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
