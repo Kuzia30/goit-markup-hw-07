@@ -1,19 +1,12 @@
 .logo {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--logo-black-color);
+  @include logo(var(--logo-black-color));
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @include transition(color);
 
-    &:hover,
-    &:focus {
+  &:hover,
+  &:focus {
     color: var(--accent-color);
-    }
+  }
 }
 
 .logo__start {
@@ -21,26 +14,17 @@
 }
 
 .logo--dark {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  @include logo(var(--primary-white-color));
 
-  color: var(--primary-white-color);
+  @include transition(color);
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover,
-    &:focus {
+  &:hover,
+  &:focus {
     color: var(--accent-color);
-    }
+  }
 }
 
 .address__logo {
   display: inline-block;
   margin-bottom: 20px;
-
 }
